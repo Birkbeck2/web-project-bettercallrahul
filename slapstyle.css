@@ -1,0 +1,129 @@
+*{
+    background-color: rgb(255, 255, 255);
+}   /* sets the whole body colour to white. */
+
+body
+{  /*  Basic body styling */
+align-items: center; 
+justify-content: center;
+text-align: center;
+font-family: 'DynaPuff'; /* Font family sourced from w3schools.com */
+}
+
+#bibleverse {
+    padding: 20px;
+    background-color: rgb(237, 231, 222);
+}
+#bibleverse h5, h6{
+   
+    background-color: rgb(237, 231, 222);
+}
+
+#visualbox img {
+    width: 20%;
+    height: auto;  
+}
+
+#bannerh1{
+   // font-family: 'DynaPuff';
+    font-size:x-large;
+    color:rgb(211, 97, 30);
+
+}
+
+
+
+#navlinks{
+display: flex;
+
+}
+#navlinks li{
+    margin: auto;
+text-align: center;
+list-style: none;
+color: ;
+}
+
+#entergame
+{
+    color: rgb(211, 97, 30);
+    padding: 10px;
+}
+#startgame{
+    color:rgb(211, 97, 30);
+    padding: 10px;
+
+}
+.prompter
+{
+    color: rgb(211, 97, 30);
+}
+
+@media only screen and (max-width: 600px) {
+    
+    #visualbox img {
+        width: 50%;
+        height: auto;  
+    }
+/*     code to reduce size of banner image for devices under screen width of 600 pixels */
+  }
+
+
+
+#player1detailsbox{
+    padding: 5px;
+    background-color:rgb(192, 197, 234);
+}
+
+#player2detailsbox{
+    padding: 5px;
+    background-color: rgb(246, 232, 203);
+}
+
+#healthmonitor{
+    display: flex;
+    
+}
+
+.healthbars {
+    width: 250px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#player1health {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    margin: 5px;
+    /* margin-bottom: 10px; */
+}
+
+#player2health {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    margin: 5px;
+}
+
+.namenstatus
+{
+display: flex;
+align-items: center;
+}
+#p1bar  { height: 10px; }
+#p2bar  {    height: 10px;}
+
+#commentatorsays {
+    font-family: 'DynaPuff';
+    color:chocolate;
+    font-weight: bolder;
+}
+
+#consolesays {
+    
+    font-weight: lighter;
+    font-size: smaller ;
+}
