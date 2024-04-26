@@ -1,0 +1,114 @@
+<html>  
+<head>
+    <link rel="stylesheet" href="slapstyle.css">    
+    <link href='https://fonts.googleapis.com/css?family=DynaPuff' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+
+<body>
+<div id="top">
+     <span id="topbanner">                  <!-- Banner to place the Game's Tittle-->
+        <h1 id="bannerh1">Slap The Face Off Face-Off</h1>
+    </span>
+
+    <!-- <nav id=" navbar">
+        <ul id="navlinks">
+            <li> <a href="#donate">Donate</a></li> //link to UK Charity website : https://www.gov.uk/government/organisations/charity-commission
+            <li> <a href="#contact">Join Us</a></li> //link to join coding whatsapp group of the developers working on various similar projects 
+        </ul>
+    </nav> -->
+</div>
+
+<div id="gamebox">
+
+    <div id="visualbox">
+        <img src="images/bannerimgsfw.jpg" alt="game banner image"> <!--free sourced from freepik.com. Link: https://www.freepik.com/free-vector/word-slap-comic-cloud_13577333.htm#query=slapping&position=1&from_view=keyword&track=sph&uuid=ddd4439c-f8a5-4306-8fc0-8b14d120eb7e -->
+
+        <div id="healthmonitor">
+
+                <div id="player1healthbar" class="healthbars">
+                    <progress id="p1bar" value="100" max="100"> </progress>
+                    
+                    <div class="namenstatus">
+
+                        <div id="player1health"></div>
+                        <h5 id="player1healthname"></h5>
+                    </div>
+                </div>
+
+                <div id="player2healthbar" class="healthbars">
+                    <progress id="p2bar" value="100" max="100"> </progress>
+                    <div class="namenstatus">
+                        <div id="player2health"></div>
+                        <h5 id="player2healthname"></h5>
+                    </div>
+                </div>
+        </div>
+
+
+
+
+    </div>
+
+
+    <div id="screen">
+        <div id="textholder">
+                <h4 id="commentatorsays">WELCOME TO THE ULTIMATE SLAP GAME</h4>
+                <h4 id="consolesays"></h4>
+                
+        </div>
+        <button type="button" id="entergame" onclick="showinputbox()" >Click To Enter</button>
+    </div>
+
+
+
+</div>
+
+<div id="hidebox">
+
+    <div id="playerdetailsbox">
+        <div id="player1detailsbox">
+            <label for="player1name" class="prompter">Person 1</label>
+            <input type="text" id="player1name"  placeholder="Eg : Bill Dates"></input>
+
+            <label for="player1nick" class="prompter">Nick Name</label>
+            <input type="text" id="player1nick" placeholder="Eg : The Undertaker"></input>
+       </div>
+
+        <div id="player2detailsbox">
+        <label for="player2name" class="prompter">Person 2</label>
+        <input type="text" id="player2name" placeholder="Eg : Beff Jezos"></input>
+
+        <label for="player2nick" class="prompter">Nick Name</label>
+        <input type="text" id="player2nick" placeholder="Eg : The Wall "></input>
+        </div>
+
+        <button type="button" id="startgame" onclick="welcome()">Start Game</button>
+   </div>
+
+   <div id="tossbox">
+    <button type="button" id="tossbuton" onclick="toss()">Proceed to Toss</button>
+
+   
+</div>
+
+<footer>
+    
+<div id="bibleverse">
+    <h5 id="verse">"But if anyone slaps you on the right cheek, turn to him the other also."</h5>
+    <h6 id="authored">- Jesus Christ, English Standard Version (Matthew 5:38–42)</h6>  
+</div>
+    <!-- 
+        contact
+        Donate : 
+    -->
+ 
+</footer>
+
+<script src="slapscript.js"></script>
+ 
+</body>
+<!-- 
+<button type="button" name="Download" onclick="welcome()" title="Download" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-71" data-is-focusable="true" data-automationid="download" aria-label="Download" tabindex="-1"><span class="ms-Button-flexContainer flexContainer-51" data-automationid="splitbuttonprimary"><i data-icon-name="Download" aria-hidden="true" class="ms-Button-icon icon-76"></i><span class="ms-Button-textContainer textContainer-52"><span class="ms-Button-label label-54" id="id__86">Download</span></span></span></button> -->
+</html>
